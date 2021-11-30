@@ -11,7 +11,7 @@
 
 //CODE HERE
 
-let gitDefinition = "To me Git it an way to explain that a code/file is avialbe and open to retrive."
+let gitDefinition = "To me Git it an way to explain that a code/file is available and open to retrieve."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -38,7 +38,10 @@ let gitHubDefinition = "GitHub is a web-based interface that uses Git, the open 
 
 //CODE HERE
 
-let init = "initating an action."
+let init = {
+    description: "creates a repo wherever you are in your terminal",
+    code: "git init",
+};
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -48,7 +51,10 @@ let init = "initating an action."
 
 //CODE HERE
 
-let clone = "clone is when you make a copy of file/code, and prep it to run"
+let clone = {
+    description: "clone is when you make a copy of file/code, to a users computer",
+    code: "git clone 'insert link to project'",
+};
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -57,7 +63,10 @@ let clone = "clone is when you make a copy of file/code, and prep it to run"
 
 //CODE HERE
 
-let status = "status helps us figure out the curent state for our file/code, like where and what it is preping for"
+let status = {
+    description: "status helps us figure out the current state for our file/code, like where and what it is prepping for",
+    code: "git status",
+};
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -67,8 +76,10 @@ let status = "status helps us figure out the curent state for our file/code, lik
 
 //CODE HERE
 
-let add = "add means we will be inputting/updating the selected file/code"
-
+let add = {
+    description: "add means we are inputting/updating the selected file/code",
+    code: "git add",
+};
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -76,8 +87,10 @@ let add = "add means we will be inputting/updating the selected file/code"
 */
 
 //CODE HERE
-let commit = "commit is us saying yes to the action we were taking steps to make, and getting our file ready to push."
-
+let commit = {
+    description: "commit is us saying yes to the action we were taking steps to make, and getting our file ready to push.",
+    code: "git commit",
+};
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -86,4 +99,7 @@ let commit = "commit is us saying yes to the action we were taking steps to make
 
 //CODE HERE
 
-let push = "push is our final step in us commiting a file to a share able drive, or our local computer. "
+let push = {
+    description: "push is our final step in us committing/uploading a file to a share withing github. ",
+    code: "git push",
+};

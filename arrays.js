@@ -28,12 +28,13 @@ console.log(colorsCopy);
 const numbers = [1, 2, 3, 4, 5]
 
 // // //CODE HERE
-function middleNums(numbers) {
-  if (numbers.length <= 2) return numbers;
-  else return numbers.slice(1, numbers.length - 1);
-}
+// function middleNums(numbers) {
+//   if (numbers.length <= 2) return numbers;
+//   else return numbers.slice(1, numbers.length - 1);
+// }
+let middleNums = number.splice(1, numbers.length -2);
 
-console.log(middleNums)
+// console.log(middleNums)
 // // //////////////////PROBLEM 4////////////////////
 // // /* 
 // //   Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 
@@ -49,5 +50,15 @@ console.log(middleNums)
 
 // // // CODE HERE
 function bigOrSmall(arr) {
-  return (arr.map(x => x > 100 ? 'big' : 'small'));
+  let answers = []
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > 100) {
+      answers.push("big");
+    }
+    else {
+      answers.push("small");
+
+    }
+  }
+  return answers;
 }
