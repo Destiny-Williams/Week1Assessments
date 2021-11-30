@@ -22,7 +22,7 @@ if (answer.length >= 10) {
     } else if  (checkNums === true) {
         console.log("Good Password, lets check the number requirements.");
     }
-    } else if {
+    } else {
      console.log("You almost have it,Lets try using a number or special character.")
 }
  
