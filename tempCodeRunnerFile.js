@@ -1,21 +1,9 @@
-//////////////////PROBLEM 1////////////////////
-/* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
-
-const faveColors = ['red', 'green', 'black']
-
-
-//CODE HERE
-const colorsCopy = faveColors.slice();
-
-console.log(faveColors);
-console.log(colorsCopy);
-
-// //////////////////PROBLEM 2////////////////////
+//////////////////PROBLEM 2////////////////////
 // /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 // //CODE HERE
- faveColors.push('Yellow');
- console.log(faveColors)
+// //let colorCopy = [faveColors, "blue"];
+// const colorCopy = faveColors.push('Yellow');
 
 // console.log(faveColors);
 // console.log(colorCopy);
@@ -25,15 +13,13 @@ console.log(colorsCopy);
 //   numbers array that will capture only the middle numbers (2, 3, 4).
 // */
 
-const numbers = [1, 2, 3, 4, 5]
+// const numbers = [1, 2, 3, 4, 5]
 
 // // //CODE HERE
-function middleNums(numbers) {
-  if (numbers.length <= 2) return numbers;
-  else return numbers.slice(1, numbers.length - 1);
-}
-
-console.log(middleNums)
+// function middleNums(arr) {
+//   if (arr.length <= 2) return arr;
+//   else return arr.slice(1, arr.length - 1);
+// }
 // // //////////////////PROBLEM 4////////////////////
 // // /* 
 // //   Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 
@@ -48,6 +34,6 @@ console.log(middleNums)
 // // */
 
 // // // CODE HERE
-function bigOrSmall(arr) {
-  return (arr.map(x => x > 100 ? 'big' : 'small'));
-}
+// function bigOrSmall(arr) {
+//   return (arr.map(x => x > 100 ? 'big' : 'small'));
+// }
